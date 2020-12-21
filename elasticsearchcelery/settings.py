@@ -132,3 +132,5 @@ ELASTICSEARCH_DSL = {
 
 
 STATIC_URL = '/static/'
+
+CELERY_BROKER_URL = 'amqp://localhost'
