@@ -7,7 +7,7 @@ from applications.blogs.models import Blog
 
 
 @registry.register_document
-class CarDocument(Document):
+class BlogDocument(Document):
     class Index:
         # Name of the Elasticsearch index
         name = 'blogs'
